@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dompetedn</title>
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="icon" href="img/main/chain.png">
+
+</head>
+
+<body>
+    <!--Шапка-->
+    <div class="wrapper">
+        <header class="header" id="home">
+            <div class="container header__container">
+                <div class="header__wrapper">
+                    <img src="img/header/logo.svg" alt="Logo" class="header__logo logo">
+                    <div class="header__text text">dompe<span>ted</span></div>
+                </div>
+
+                <nav class="header__nav nav">
+                    <ul class="nav-list">
+                        <li class="nav-list__item"><a href="#home" class="nav-list__link">Home</a></li>
+                        <li class="nav-list__item"><a href="#partners" class="nav-list__link">Partners</a></li>
+                        <li class="nav-list__item"><a href="#information" class="nav-list__link">How it Works</a></li>
+                        <li class="nav-list__item"><a href="#contact" class="nav-list__link">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+
+    <main>
+        <!--  Промо-->
+        <section class="promo" id="contact">
+            <div class="container container__promo">
+                <div class="promo__wrapper">
+                    <div class="promo__info">
+                        <img src="img/main/chain.png" alt="chain" class="promo__chain">
+                        <div class="promo__chain-descr">#1 Blockchain information!</div>
+                    </div>
+
+                    <h1 class="promo__title">What is blockchain technology?</h1>
+                    <p class="promo__descr">Blockchain is a system of recording information in a way that makes it difficult or impossible to change, hack, or cheat the system. A blockchain is essentially a digital ledger of transactions that is duplicated and distributed across the entire network of computer systems on the blockchain.</p>
+                    <form id="subscribe-form" class="feed-from" action="#" class="promo__form" novalidate="novalidate">
+                        <input name="email" required placeholder="Enter email adress" type="email">
+                        <button class="button__submit submit_button">Subscribe</button>
+                    </form>
+
+                    <div class="promo__figure">
+                        <div class="promo__logo">
+                            <img src="img/main/chain2.png" alt="blockchain" class="promo__blockchain">
+                            <img src="img/main/hand.png" alt="Hand" class="promo__hand">
+                        </div>
+                        <div class="promo__ellipses"></div>
+                        <div class="promo__ellipses second"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="information" id="information">
+            <div class="container information__container">
+                <div class="information__wrapper">
+                    <div class="information__video"><iframe width="560" height="315" src="https://www.youtube.com/embed/SSo_EIwHSd4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+                    <div class="information__text">
+                        <h2 class="information__title">How does it Work?</h2>
+                        <p class="information__descr">A blockchain collects information together in groups, known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are closed and linked to the previously filled block, forming a chain of data known as the blockchain.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--  Партнеры-->
+        <section class="partners" id="partners">
+            <div class="container partners__container">
+                <div class="partners__descr">Our partners</div>
+                <div class="partners__wrapper">
+                    <ul class="partners__list">
+                        <li class="partners__item">
+                            <a href="https://www.bailliegifford.com/" class="partners__link">
+                                <img src="img/partners/bailliegifford.png" alt="bailliegifford" class="partners__logo">
+                            </a>
+                        </li>
+                        <li class="partners__item">
+                            <a href="https://dst-global.com/" class="partners__link">
+                                <img src="img/partners/dst.png" alt="dst" class="partners__logo">
+                            </a>
+                        </li>
+                        <li class="partners__item">
+                            <a href="https://www.gv.com/" class="partners__link">
+                                <img src="img/partners/gvblack.png" alt="gvblack" class="partners__logo">
+                            </a>
+                        </li>
+                        <li class="partners__item">
+                            <a href="https://lsvp.com/" class="partners__link">
+                                <img src="img/partners/lightspeed.png" alt="lightspeed" class="partners__logo">
+                            </a>
+                        </li>
+                        <li class="partners__item">
+                            <a href="https://www.vycapital.com/" class="partners__link">
+                                <img src="img/partners/vy.png" alt="vy" class="partners__logo">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <a href="#up" class="pageup">
+        <img src="img/up.svg" alt="up">
+    </a>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
